@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" style="margin-top: 0px;padding-top: 0px;">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRATION</title>
+</head>
+<body style="background-color: bisque;margin-top: 0px;padding-top: 0px;">
+    <center>
+        <h3 align="center">Hotel Booking FORM</h3>
+        <table border="3" style="background-color: cornflowerblue; border-color: blue;">
+            <tr><td>
+    <form style="margin: 0px;padding: 0px;"><table cellpadding="5" cellspacing="10" style="border-spacing: 0;">
+           <tr><td>First Name: </td><td><input type="text" name="FirstName" placeholder="eg.gowtham"></td></tr>
+            <tr><td>Last Name: </td><td><input type="text" name="LastName" placeholder="eg.reddy"></td></tr>
+            <tr><td>EMail: </td><td><input type="email" name="EMail" placeholder="eg.abc@gmail.com"></td></tr>
+            <tr><td> Password: </td><td><input type="password" name="password" ></td></tr>
+           <tr><td> Gender: </td><td><input type="radio" name="gender" value="M" checked>Male
+               <input type="radio" name="gender" value="F">Female 
+               <input type="radio" name="gender" value="O">Other</td> </tr>
+           <tr><td> Age:</td>
+               <td><input type="number" name="age"></td></tr>
+            <tr><td>Number of Days To stay:</td>
+            <td>    <input type="number" max="30" min="1" name="marks"></td></tr>
+            <tr><td> PREFER To Stay:</td></tr>
+           <tr><td style="color:maroon;"><input type="checkbox" name="Ground" value="G">Ground Floor</td></tr>
+           <tr><td style="color:maroon;"><input type="checkbox" name="1st" value="1">1st Floor</td></tr> 
+            <tr><td style="color:maroon;"><input type="checkbox" name="2nd" value="2">2nd Floor</td></tr>
+            <tr><td style="color:maroon;"><input type="checkbox" name="3rd" value="3">3rd Floor</td></tr>
+            <tr><td style="color:maroon;"><input type="checkbox" name="4th" value="4">4th Floor</td></tr>
+            <tr><td style="color:maroon;"><input type="checkbox" name="5th" value="5">5th Floor</td></tr>
+            <tr><td style="color:maroon;"><input type="checkbox" name="6th" value="6">6th Floor</td></tr>
+            
+            <tr><td>
+                No Of Persons:</td>
+             <td><select name="StayN">
+            <option value="" selected>Select</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+           <option value="5">5</option>
+            </select> </td></tr>
+        <tr><td>No Of Rooms:</td>
+            <td><select name="RoomN">
+           <option value="" selected>Select</option>
+           <option value="1">1</option>
+           <option value="2">2</option>
+           <option value="3">3</option>
+           <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="5">6</option>
+          <option value="5">7</option>
+          <option value="5">8</option>
+          <option value="5">9</option>
+          <option value="5">10</option>
+          <option value="O">Other</option>
+          
+     
+       </select> </td></tr>
+       <tr>
+        <td>If Other(enter the number of rooms):</td>
+        <td>
+            <input type="number" name="RN">
+        </td>
+       </tr>
+        
+       <tr><td>Address:</td> 
+       <td><textarea name="suggest" rows="5" cols="20"></textarea></td></tr>
+        <tr><td colspan="2" align="center"><button type="submit">Submit</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button type="reset">Reset</button></td></tr>
+    </table>   
+    </form></td></tr>
+</table>
+</center>
+</body>
+</html>
